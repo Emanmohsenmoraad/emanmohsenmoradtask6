@@ -15,7 +15,7 @@ export class Task6Component {
  /*videoId = 'https://www.youtube.com/watch?v=zsia54kAOF8';*/
 
   isButtonActive: boolean=false;
-  color: string = '#FF0000'; // Red color as an initial value
+  color: string = '#FF0000';
 
   
   updateColor(newColor: string) {
