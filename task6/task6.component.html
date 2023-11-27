@@ -1,0 +1,14 @@
+<input type="text" [(ngModel)]="userName">
+<p>Welcome, {{ userName }}!</p>
+<input type="text" #myInput>
+<button (click)="processInput(myInput.value)">Process Input</button><br>
+<label style="margin-bottom: 6000px;">you have entered :{{myInput.value}}</label>  <br>
+<br> <br> 
+<button [style.backgroundColor]="isButtonActive ? 'blue' : 'gray'">Click me!</button><br>
+<div [style.background-color]="color">Hello Winter</div>
+<button style="margin-right: 20px;" (click)="updateColor('#0000FF')">Change to Blue</button>
+<button (click)="resetColor()">Reset Color</button>
+<!--<youtube-player 
+  [videoId]="videoId"
+ 
+></youtube-player>-->
